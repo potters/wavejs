@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<title>
+wave.js
+</title>
+<script type="text/JavaScript" src="wave.js"></script>
+<style>
+body {
+  margin: 0;
+}
+#dieter-rams section {
+  background: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+}
+nav {
+  position: fixed;
+  right: 0;
+  top: 5%;
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  z-index: 100;
+}
+.wave-active {
+  list-style-type: circle;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li class="nav-item-for-wave-1"></li>
+    <li class="nav-item-for-wave-2"></li>
+    <li class="nav-item-for-wave-3"></li>
+    <li class="nav-item-for-wave-4"></li>
+    <li class="nav-item-for-wave-5"></li>
+    <li class="nav-item-for-wave-6"></li>
+    <li class="nav-item-for-wave-7"></li>
+    <li class="nav-item-for-wave-8"></li>
+    <li class="nav-item-for-wave-9"></li>
+    <li class="nav-item-for-wave-10"></li>
+  </ul>
+</nav>
+
+<div id="dieter-rams">
+
+  <section id="innovative">break animation when OOB</section>
+  <section id="useful">resizing windows</section>
+  <section id="aesthetic">number clicks</section>
+  <section id="understandable">linkable nav</section>
+  <section id="unobtrusive">mobile implementation</section>
+  <section id="honest">adding stops</section>
+  <section id="long-lasting">adding heros</section>
+  <section id="last-detail">adding queued animations</section>
+  <section id="environmental">refactor</section>
+  <section id="little">publish</section>
+
+</div>
+
+<script>
+  var WC = new WaveController("dieter-rams")
+</script>
+</body>
+</html>
